@@ -30,21 +30,23 @@ export default {
     .header-left
       width: .64rem
       float: left
+      font-weight: bold
       .back-icon
         text-align: center
-        font-size: .4rem
+        font-size: .36rem
+        line-height: .88rem;
     .header-input
       flex: 1
       height: .64rem
       line-height: .64rem
       margin-top: .12rem
-      margin-left: .2rem
+      margin-left: .15rem
       background: #fff
-      border-radius: .1rem
-      color: #ccc
+      border-radius: .07rem
+      color: #e4e7ea
       padding-left: .2rem
     .header-right
-      width: 1.24rem
+      width: 1.28rem
       float: right
       text-align: center
       .arrow-icon
