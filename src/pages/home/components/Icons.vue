@@ -101,14 +101,15 @@ export default {
       background: rgba(0,0,0,0.20)
   .icons >>> .my-bullet-active
       background: rgba(0,175,190,.8)
+  .icons
+    margin-top: .1rem
     .icon
       overflow: hidden
       width: 25%
       height: 0
-      padding-bottom: 22%
+      padding-bottom: 23%
       float: left
       position: relative
-      margin-top: .1rem
       .icon-img
         position: absolute
         top: 0
@@ -127,4 +128,5 @@ export default {
         line-height: .44rem
         height: .44rem
         text-align: center
+        ellipsis()
 </style>
