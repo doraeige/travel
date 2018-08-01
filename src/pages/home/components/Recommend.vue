@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="title">热情推荐</div>
+    <div class="recommend-title">热情推荐</div>
     <ul>
-      <li class="item border-bottom" v-for="item of itemList" :key="item.id">
+      <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
         <img class="item-img" :src='item.imgUrl' alt="picture">
         <div class="img-info">
           <p class="img-title">{{item.title}}</p>
@@ -17,36 +17,19 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      itemList: [{
-        id: '001',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/201403/10/b7aa220089fa8054e6e012bafff63042.jpg_200x200_650160bf.jpg',
-        title: '长沙生态动物园',
-        desc: '长沙生态动物园'
-      }, {
-        id: '002',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/201403/10/b7aa220089fa8054e6e012bafff63042.jpg_200x200_650160bf.jpg',
-        title: '长沙生态动物园',
-        desc: '长沙生态动物园'
-      }, {
-        id: '003',
-        imgUrl: 'https://imgs.qunarzz.com/sight/p0/201403/10/b7aa220089fa8054e6e012bafff63042.jpg_200x200_650160bf.jpg',
-        title: '长沙生态动物园',
-        desc: '长沙生态动物园'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
 
 <style lang="stylus" scoped>
   @import '~styles/mixins.styl'
-  .title
+  .recommend-title
     line-height: .8rem
     background: #eeeeee96
     text-indent: .2rem
-    margin-top: .2rem
+    font-size: 0.3rem
   .item
     display: flex
     overflow: hidden
