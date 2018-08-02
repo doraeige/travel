@@ -27,7 +27,8 @@ export default {
   @import '~styles/varibles.styl'
   .header
     display: flex
-    line-height: .86rem
+    line-height: $headerHeight
+    height: $headerHeight
     background: $bgColor
     color: #fff
     .header-left
@@ -37,7 +38,7 @@ export default {
       .back-icon
         text-align: center
         font-size: .36rem
-        line-height: .88rem;
+        line-height: $headerHeight
     .header-input
       flex: 1
       height: .64rem
@@ -52,6 +53,8 @@ export default {
       width: 1.28rem
       float: right
       text-align: center
+      line-height: $headerHeight
+      height: $headerHeight
       .arrow-icon
         margin-left: -.09rem
 </style>
