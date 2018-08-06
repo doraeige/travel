@@ -54,7 +54,7 @@ export default {
         }
         this.timer = setTimeout(() => {
           const touchY = e.touches[0].clientY - 79
-          const index = Math.floor((touchY - this.startY) / 22)
+          const index = Math.floor((touchY - this.startY) / 20)
           if (index >= 0 && index < this.letters.length) {
             this.$emit('change', this.letters[index])
           }
@@ -81,6 +81,6 @@ export default {
     justify-content: center
     .item
       text-align: center
-      line-height: .44rem
+      line-height: .40rem
       color: $bgColor
 </style>
