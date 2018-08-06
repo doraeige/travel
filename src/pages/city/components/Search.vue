@@ -51,6 +51,7 @@ export default {
       // 切换到首页
       this.$router.push('/')
     },
+    // 有一个mutation叫做changeCity，把这个mutation映射到这个组件的computed计算属性里面一个叫做changeCity的方法里
     ...mapMutations(['changeCity'])
   },
   watch: {
