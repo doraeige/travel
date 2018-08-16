@@ -38,51 +38,51 @@
 - **ES6**：ECMAScript
 - **vue-awesome-swiper**： 图片轮播插件
 - **fastClick**: 解决300毫秒点击事件延迟问题
-- **stylus-loader**: 使用构建工具 webpack 的 stylus-loader 来将stylus 语言转化为原生 css
+- **stylus-loader**: 使用构建工具 webpack 的 stylus-loader 来将 stylus 语言转化为原生 css
 
 ### 【后端数据】
 
 - 使用本地模拟数据
 
 ## 项目浏览
-![gif](https://gitee.com/sophia778/Travel/blob/master/localpic/01.gif)
+![gif](https://github.com/doraeige/travel/blob/master/localpic/01.gif)
 
 ## 项目图示及介绍
 
-- 去哪儿 - 主界面 分为五部分
+- 去哪儿 - 主界面
 
 - [x] header区域，搜索城市/景点/游玩主题
 - [x] banner部分自动轮播
-- [x] 图标选择栏左右拖动，共两页
+- [x] 图标选择栏左右滑动，共两页
 - [x] “热销推荐”部分，点击不同的选项，根据动态路由进入到对应的景点门票详情页面
 - [x] “周末去哪儿”，周末游组件
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/01.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/01.png)
 
 - 去哪儿 - 城市选择切换页面
 
 - [x] 右侧可通过点击或拖动字母，来查看首字母对应的城市
-- [x] 点击要选择的城市，主页面顶部栏右侧的城市将显示为相应的城市
 - [x] 输入相应中文或字母，页面将显示出可搜索到的城市列表
+- [x] 实现了城市的展示、城市搜索以及城市右侧字母与左侧区块动画联动效果，在城市列表切换了新的城市之后首页城市也跟着变化
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/02.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/02.png)
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/03.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/03.png)
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/04.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/04.png)
 
 - 去哪儿 - 景区票价详情页面
 
 - [x] 点击图片可查看更多相关景点图片，轮播展示
 - [x] 实现 Header 渐隐渐现效果
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/05.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/05.png)
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/06.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/06.png)
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/07.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/07.png)
 
-![image](https://gitee.com/sophia778/Travel/raw/master/localpic/08.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/08.png)
 
 ## 收获
 
