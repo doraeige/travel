@@ -93,7 +93,5 @@
 5. 了解 vue-router 路由跳转、获取动态路由参数、编程式的导航
 6. 了解项目开发流程：项目分析设计 -> 环境搭建 -> 依赖安装 -> 数据模拟 -> 本地开发 -> 项目联调 -> 真机测试 -> 打包上线
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
-
 ![](http://oph264zoo.bkt.clouddn.com/17-8-11/10545126.jpg)
 
