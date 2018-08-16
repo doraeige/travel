@@ -1,28 +1,28 @@
 # 仿去哪儿网 - WebApp
 - 去哪网总共有3个模块（首页模块+城市选择模块+详情模块）
   - 首页模块
-     1.头部Header模块
-     2.轮播Swiper模块
-     3.图标导航Icons模块
-     4.热销推荐Recommend模块
-     5.周末去哪儿Weekend模块 
+     - 头部Header模块
+     - 轮播Swiper模块
+     - 图标导航Icons模块
+     - 热销推荐Recommend模块
+     - 周末去哪儿Weekend模块 
   - 城市选择模块
-     1.头部Header模块
-     2.搜索Search模块
-     3.当前城市、热门城市模块、城市列表List模块
-     4.侧边字母表Alphabet导航模块 
+     - 头部Header模块
+     - 搜索Search模块
+     - 当前城市、热门城市模块、城市列表List模块
+     - 侧边字母表Alphabet导航模块 
   - 详情模块
-     1.头部返回按钮及Header模块
-     2.景点图片Banner模块
-     3.相关景点图片展示Gallary模块（点击详情模块会出现图片轮播展示）
-     4.票种选择List模块
+     - 头部返回按钮及Header模块
+     - 景点图片Banner模块
+     - 相关景点图片展示Gallary模块（点击详情模块会出现图片轮播展示）
+     - 票种选择List模块
 
 ## 如何运行
 
 - 下载并解压此项目 或 将此项目clone你选择的路径下。
 - 在项目的根目录下，执行 `npm install` 下载项目依赖（可打开package.JSON文件查看所需模块）。
 - 接着，执行 `npm run start` 或 `npm run dev`，在网址栏输入`http://localhost:8080/`，如果要在移动设备端查看，在命令行 windows 用户输入`ipconfig`，mac 用户输入`ifconfig` 查询IP地址，然后再电脑端或者使用着与电脑端相同网络连接的移动设备端浏览`你的ip地址:8080`(**例如**：`192.168.1.105:8080`)即可。
-- 在电脑端，以Chrome浏览器为例，项目WebApp打开后，请检查元素(F12或CTRL+SHIFT+I)后，再切换设备分辨率(CTRL+SHIFT+M)，最后刷新便可正常浏览。
+- 在电脑端，以Chrome浏览器为例，项目WebApp打开后，检查元素(windows用户使用F12 或 CTRL + SHIFT + I; mac用户使用 COMMAND + OPTION + J)后，再切换设备分辨率(windows用户CTRL+SHIFT+M; mac用户COMMAND + SHIFT + M)，最后刷新便可正常浏览。
 - 提示：如npm下载依赖速度过慢，请使用[淘宝NPM镜像](https://npm.taobao.org/)
 
 ## 环境参数
@@ -49,7 +49,7 @@
 
 ## 项目图示及介绍
 
-- 去哪儿 - 主界面
+#### 去哪儿 - 主界面
 
 - [x] header区域，搜索城市/景点/游玩主题
 - [x] banner部分自动轮播
@@ -59,7 +59,7 @@
 
 ![image](https://github.com/doraeige/travel/blob/master/localpic/01.png)
 
-- 去哪儿 - 城市选择切换页面
+#### 去哪儿 - 城市选择切换页面
 
 - [x] 右侧可通过点击或拖动字母，来查看首字母对应的城市
 - [x] 输入相应中文或字母，页面将显示出可搜索到的城市列表
@@ -71,7 +71,7 @@
 
 ![image](https://github.com/doraeige/travel/blob/master/localpic/04.png)
 
-- 去哪儿 - 景区票价详情页面
+#### 去哪儿 - 景区票价详情页面
 
 - [x] 点击图片可查看更多相关景点图片，轮播展示
 - [x] 实现 Header 渐隐渐现效果
@@ -86,12 +86,12 @@
 
 ## 收获
 
-1. 对 vue 的组件、指令、模版渲染、事件绑定、计算属性等有了一定了解
-2. 了解了 vue 父子组件之间的交互、传值
+1. 对 vue 的组件、指令、模版渲染、事件绑定、计算属性等有一定了解
+2. 了解 vue 父子组件之间的交互、传值
 3. 学会在 vue 项目中使用一些第三方插件（组件）
 4. 对组件化、模块化的开发思维有一定理解
-5. 了解了 vue-router 控制路由和子路由的方式
-6. 了解了项目开发流程：项目分析设计 -> 项目环境搭建 -> 依赖安装 -> 页面架构设计 -> 组件开发 -> 测试联调 -> 发布上线
+5. 了解 vue-router 路由跳转、获取动态路由参数、编程式的导航
+6. 了解项目开发流程：项目分析设计 -> 环境搭建 -> 依赖安装 -> 数据模拟 -> 本地开发 -> 项目联调 -> 真机测试 -> 打包上线
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
