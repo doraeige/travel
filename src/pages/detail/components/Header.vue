@@ -13,7 +13,7 @@
       v-show="!showAbs"
       :style="opacityStyle"
     >
-      <router-link to="/">
+      <router-link to="/" tag="div">
         <span class="iconfont header-fixed-back">&#xe624;</span>
       </router-link>
       景点详情
@@ -61,14 +61,14 @@ export default {
   @import '~styles/varibles.styl'
   .header-abs
     position: absolute
-    top: .1rem
-    left: .1rem
+    top: .2rem
+    left: .2rem
     width: .72rem
     height: .72rem
     line-height: .72rem
     text-align: center
     border-radius: .36rem
-    background: rgba(0, 0, 0, .5)
+    background: rgba(0, 0, 0, .6)
     .header-back-icon
       font-size: .34rem
       color: #fff

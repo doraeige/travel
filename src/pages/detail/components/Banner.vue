@@ -80,7 +80,7 @@ export default {
         line-height: .32rem
         margin-top: .14rem
         padding: 0 .4rem
-        background: rgba(0, 0, 0, 0.5)
+        background: rgba(0, 0, 0, 0.6)
         border-radius: .2rem
         font-size: .24rem
         .banner-icon
