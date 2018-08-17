@@ -48,44 +48,6 @@
 ## 项目浏览
 ![gif](https://github.com/doraeige/travel/blob/master/localpic/01.gif)
 
-## 项目图示及介绍
-
-#### 去哪儿 - 主界面
-
-- [x] header区域，搜索城市/景点/游玩主题
-- [x] banner部分自动轮播
-- [x] 图标选择栏左右滑动，共两页
-- [x] “热销推荐”部分，点击不同的选项，根据动态路由进入到对应的景点门票详情页面
-- [x] “周末去哪儿”，周末游组件
-
-![image](https://github.com/doraeige/travel/blob/master/localpic/01.png)
-
-#### 去哪儿 - 城市选择切换页面
-
-- [x] 右侧可通过点击或拖动字母，来查看首字母对应的城市
-- [x] 输入相应中文或字母，页面将显示出可搜索到的城市列表
-- [x] 实现了城市的展示、城市搜索以及城市右侧字母与左侧区块动画联动效果，在城市列表切换了新的城市之后首页城市也跟着变化
-
-<figure class="third">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/02.png">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/03.png">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/04.png">
-</figure>
-
-#### 去哪儿 - 景区票价详情页面
-
-- [x] 点击图片可查看更多相关景点图片，轮播展示
-- [x] 实现 Header 渐隐渐现效果
-
-<figure class="half">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/05.png">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/06.png">
-</figure>
-<figure class="half">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/07.png">
-    <img src="https://github.com/doraeige/travel/blob/master/localpic/08.png">
-</figure>
-
 ## 收获
 
 1. 对 vue 的组件、指令、模版渲染、事件绑定、计算属性等有一定了解
@@ -105,6 +67,38 @@
 - 记录用户最后一次点击的城市，刷新页面网站可以记录上次用户的选择，这里采用 HTML5 中的 localStorage；如果用户关闭了本地存储功能或使用隐身模式，浏览器会抛出异常，在外层需要包裹一个 try{}catch(e){}
 - 在景点详情页面中，有一个多级的菜单需要显示，使用递归组件，在它们自己的模板中调用自身，但确保递归调用是条件性的，用v-if限制，否则递归组件就可能导致无限循环
 - 项目打包上线时，axios.get(地址必须为api),本地模拟数据放在根目录 static 目录 mock 文件夹下,要将 api 下所有的 json 文件请求都转发到本地static/mock 文件夹下，需要在根目录 config 目录下 index.js 中设置: proxyTable: {'/api': { pathRewrite: {'^/api': '/static/mock'}}},另外，改动了配置项，需要重启一下服务器 
+
+## 项目图示及介绍
+
+#### 去哪儿 - 主界面
+
+- [x] header区域，搜索城市/景点/游玩主题
+- [x] banner部分自动轮播
+- [x] 图标选择栏左右滑动，共两页
+- [x] “热销推荐”部分，点击不同的选项，根据动态路由进入到对应的景点门票详情页面
+- [x] “周末去哪儿”，周末游组件
+
+![image](https://github.com/doraeige/travel/blob/master/localpic/01.png)
+
+#### 去哪儿 - 城市选择切换页面
+
+- [x] 右侧可通过点击或拖动字母，来查看首字母对应的城市
+- [x] 输入相应中文或字母，页面将显示出可搜索到的城市列表
+- [x] 实现了城市的展示、城市搜索以及城市右侧字母与左侧区块动画联动效果，在城市列表切换了新的城市之后首页城市也跟着变化
+
+![image](https://github.com/doraeige/travel/blob/master/localpic/02.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/03.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/04.png)
+
+#### 去哪儿 - 景区票价详情页面
+
+- [x] 点击图片可查看更多相关景点图片，轮播展示
+- [x] 实现 Header 渐隐渐现效果
+
+![image](https://github.com/doraeige/travel/blob/master/localpic/05.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/06.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/07.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/08.png)
 
 ![](http://oph264zoo.bkt.clouddn.com/17-8-11/10545126.jpg)
 
