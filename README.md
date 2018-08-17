@@ -88,7 +88,7 @@
 
 ![image](https://github.com/doraeige/travel/blob/master/localpic/02.png)
 
-![image](https://github.com/doraeige/travel/blob/master/localpic/03.png)
+![image](https://github.com/doraeige/travel/blob/master/localpic/03.png) &emsp;&emsp;
 ![image](https://github.com/doraeige/travel/blob/master/localpic/04.png)
 
 #### 去哪儿 - 景区票价详情页面
@@ -96,10 +96,10 @@
 - [x] 点击图片可查看更多相关景点图片，轮播展示
 - [x] 实现 Header 渐隐渐现效果
 
-![image](https://github.com/doraeige/travel/blob/master/localpic/05.png)
-![image](https://github.com/doraeige/travel/blob/master/localpic/07.png)
-
+![image](https://github.com/doraeige/travel/blob/master/localpic/05.png)&emsp;&emsp;
 ![image](https://github.com/doraeige/travel/blob/master/localpic/06.png)
+
+![image](https://github.com/doraeige/travel/blob/master/localpic/07.png)&emsp;&emsp;
 ![image](https://github.com/doraeige/travel/blob/master/localpic/08.png)
 
 ![](http://oph264zoo.bkt.clouddn.com/17-8-11/10545126.jpg)
