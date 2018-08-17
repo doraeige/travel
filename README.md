@@ -66,24 +66,25 @@
 - [x] 输入相应中文或字母，页面将显示出可搜索到的城市列表
 - [x] 实现了城市的展示、城市搜索以及城市右侧字母与左侧区块动画联动效果，在城市列表切换了新的城市之后首页城市也跟着变化
 
-![image](https://github.com/doraeige/travel/blob/master/localpic/02.png)
-
-![image](https://github.com/doraeige/travel/blob/master/localpic/03.png)
-
-![image](https://github.com/doraeige/travel/blob/master/localpic/04.png)
+<figure class="third">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/02.png">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/03.png">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/04.png">
+</figure>
 
 #### 去哪儿 - 景区票价详情页面
 
 - [x] 点击图片可查看更多相关景点图片，轮播展示
 - [x] 实现 Header 渐隐渐现效果
 
-![image](https://github.com/doraeige/travel/blob/master/localpic/05.png)
-
-![image](https://github.com/doraeige/travel/blob/master/localpic/06.png)
-
-![image](https://github.com/doraeige/travel/blob/master/localpic/07.png)
-
-![image](https://github.com/doraeige/travel/blob/master/localpic/08.png)
+<figure class="half">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/05.png">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/06.png">
+</figure>
+<figure class="half">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/07.png">
+    <img src="https://github.com/doraeige/travel/blob/master/localpic/08.png">
+</figure>
 
 ## 收获
 
