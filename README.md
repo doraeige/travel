@@ -87,6 +87,7 @@
 - [x] 实现了城市的展示、城市搜索以及城市右侧字母与左侧区块动画联动效果，在城市列表切换了新的城市之后首页城市也跟着变化
 
 ![image](https://github.com/doraeige/travel/blob/master/localpic/02.png)
+
 ![image](https://github.com/doraeige/travel/blob/master/localpic/03.png)
 ![image](https://github.com/doraeige/travel/blob/master/localpic/04.png)
 
@@ -96,8 +97,9 @@
 - [x] 实现 Header 渐隐渐现效果
 
 ![image](https://github.com/doraeige/travel/blob/master/localpic/05.png)
-![image](https://github.com/doraeige/travel/blob/master/localpic/06.png)
 ![image](https://github.com/doraeige/travel/blob/master/localpic/07.png)
+
+![image](https://github.com/doraeige/travel/blob/master/localpic/06.png)
 ![image](https://github.com/doraeige/travel/blob/master/localpic/08.png)
 
 ![](http://oph264zoo.bkt.clouddn.com/17-8-11/10545126.jpg)
