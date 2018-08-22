@@ -26,7 +26,7 @@
 - 在电脑端，以Chrome浏览器为例，项目WebApp打开后，检查元素(windows用户使用F12 或 CTRL + SHIFT + I; mac用户使用 COMMAND + OPTION + J)后，再切换设备分辨率(windows用户CTRL+SHIFT+M; mac用户COMMAND + SHIFT + M)，最后刷新便可正常浏览。
 - 提示：如npm下载依赖速度过慢，请使用[淘宝NPM镜像](https://npm.taobao.org/)
 
-## 环境参数
+## 技术栈
 
 ### 【前端】
 
